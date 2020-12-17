@@ -1,4 +1,4 @@
-![carl](C:/Users/total/Pictures/Saved Pictures/unknown.png)
+![carl](unknown.png)
 
 # gamer_bot
 gamer bot for discord
