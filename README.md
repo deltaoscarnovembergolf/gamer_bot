@@ -1,4 +1,4 @@
-# gamer_bot2
+# gamer_bot
 gamer bot for discord
 
 
