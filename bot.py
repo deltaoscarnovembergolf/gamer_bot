@@ -37,6 +37,8 @@ async def on_message(message):
 	img1 = "https://i.imgur.com/nuMETTo.png"
 	img2 = "https://i.imgur.com/xXA413h.png"
 	img3 = "https://i.imgur.com/WmkWxvB.png"
+	jeep = "https://cdn.discordapp.com/attachments/756318021303402627/789135376610361344/jeep.mp4"
+	toys = "https://cdn.discordapp.com/attachments/756318021303402627/789137159495090186/vsauce_toys.mp4"
 
 	if message.content == prefix + "gamer":
 		await message.channel.send(f"{img1}\n{img2}\n{img3}")
@@ -61,8 +63,8 @@ async def on_message(message):
 		await message.channel.send("you dont even know my true form :moyai:")
 
 	elif message.content == prefix + "ban me mr bot":
-		await message.channel.send("aight")
-		await message.channel.send("band :moyai:")
+			await message.channel.send("aight")
+			await message.channel.send("band :moyai:")
 
 #		each message is separated by an uncomfortable pause
 #		as vsauce demonstrates here
@@ -90,16 +92,12 @@ async def on_message(message):
 		time.sleep(2.5)
 		await message.channel.send("\*silent kisses\*")
 
-		
 
+	elif message.content == prefix + "jeep":
+		await message.channel.send(jeep)
 
-
-
-#	elif message.content == prefix + "command":
-#		await message.channel.send("
-
-#	elif message.content == prefix + "command":
-#		await message.channel.send("
+	elif message.content == prefix + "toys":
+		await message.channel.send(toys)
 
 
 
