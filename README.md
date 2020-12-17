@@ -28,6 +28,7 @@ carl
 eg
 
 bock
+
 ban everyone
 
 gamer bot is all powerful (does not need prefix)
