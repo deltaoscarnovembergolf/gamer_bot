@@ -42,6 +42,6 @@ vsauce
 in the same folder as bot.py, make a file called .env with the following text:
 ```
 # .env
-DISCORD_TOKEN = (the token u got from [discord developer portal](https://discord.com/developers/applications))
+DISCORD_TOKEN = (the token u got from https://discord.com/developers/applications)
 DISCORD_GUILD = (ur server id)
 ```
