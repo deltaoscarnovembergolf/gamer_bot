@@ -9,7 +9,7 @@ prefix is $ and there is no way to change it 🗿
 
 commands include:
 
-gamer
+gamer\n
 owner
 carl
 eg
