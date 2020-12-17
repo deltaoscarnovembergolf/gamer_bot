@@ -45,6 +45,9 @@ i will respond (hopefully)
 # examples of gamer bot in action
 
 ![gamer bot banning everyone](/images/examples/band.png)
+
 ![gamer bot being based](/images/examples/bock.png)
+
 ![gamering bot](/images/examples/gamer.png)
+
 ![gamer bot admiring fellow deities](/images/examples/vsauce.mp4)
