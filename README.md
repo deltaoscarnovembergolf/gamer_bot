@@ -31,6 +31,10 @@ ban me mr bot
 vsauce
 ```
 
+# discord support server
+
+https://discord.gg/5R6RjuRCC9
+
 # how to use for urself
 in the same folder as bot.py, make a file called .env with the following text:
 ```
