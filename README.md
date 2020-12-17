@@ -1,4 +1,4 @@
-![carl](unknown.png)
+![carl](/images/carl/unknown.png)
 
 # gamer_bot
 gamer bot for discord
