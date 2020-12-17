@@ -50,4 +50,4 @@ i will respond (hopefully)
 
 ![gamering bot](/images/examples/gamer.png)
 
-![gamer bot admiring fellow deities](/images/examples/vsauce.mp4)
+[![gamer bot admiring fellow deities](/images/examples/vsauce.png)](https://youtu.be/zzr8aE3kpr0)
