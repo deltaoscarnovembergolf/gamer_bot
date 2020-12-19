@@ -17,28 +17,28 @@ client = discord.Client()
 async def on_ready():
 	guild_count = 0
 
-	print(f"{client.user} is connected to the following guilds:\n")
-	
 	for guild in client.guilds:
 		guild_count += 1
 
-		print( 
-			f"- {guild.name} (id: {guild.id})")
-
-#			f'{guild.name}(id: {guild.id})')
-
-	print(f"gamer bot is in {str(guild_count)} guilds")
+	print(f"{client.user} is connected to the following {guild_count} guilds:\n")
+	
+	for guild in client.guilds:
+		print(f"- {guild.name} (id: {guild.id})")
+		
+#	members = '\n - '.join([member.name for member in guild.members])
+#	print(f'Guild Members:\n - {members}')
 
 @client.event
 async def on_message(message):
 	prefix = "$"
-	new_prefix = ""
 
 	img1 = "https://i.imgur.com/nuMETTo.png"
 	img2 = "https://i.imgur.com/xXA413h.png"
 	img3 = "https://i.imgur.com/WmkWxvB.png"
 	jeep = "https://cdn.discordapp.com/attachments/756318021303402627/789135376610361344/jeep.mp4"
 	toys = "https://cdn.discordapp.com/attachments/756318021303402627/789137159495090186/vsauce_toys.mp4"
+	carl = "https://cdn.discordapp.com/attachments/756318021303402627/789624573385244762/unknown.png"
+	onion = "https://cdn.discordapp.com/attachments/788960986198835291/789682192602365962/video0-12.mov"
 
 	if message.content == prefix + "gamer":
 		await message.channel.send(f"{img1}\n{img2}\n{img3}")
@@ -47,7 +47,7 @@ async def on_message(message):
 		await message.channel.send(discord.Member.display_name)
 
 	elif message.content == prefix + "carl":
-		await message.channel.send("<:Carl:787817526665936906>")
+		await message.channel.send(carl)
 
 	elif message.content == prefix + "eg":
 		await message.channel.send("<:egg_cat:768894731219763290>")
@@ -67,8 +67,7 @@ async def on_message(message):
 			await message.channel.send("band :moyai:")
 
 #		each message is separated by an uncomfortable pause
-#		as vsauce demonstrates here
-
+#		as vsauce demonstrates here https://tinyurl.com/vsaucelovesu
 	elif message.content == prefix + "vsauce":
 		await message.channel.send("oh, hi! heh,")
 		time.sleep(1.7)
@@ -92,14 +91,16 @@ async def on_message(message):
 		time.sleep(2.5)
 		await message.channel.send("\*silent kisses\*")
 
-
 	elif message.content == prefix + "jeep":
 		await message.channel.send(jeep)
 
 	elif message.content == prefix + "toys":
 		await message.channel.send(toys)
 
+	elif message.content == ":head:" and ":torso:" and ":legz:":
+		await message.comtent.send(shane)
 
-
+	elif message.content == prefix + "swedish welfare system":
+		await message.channel.send(onion)
 
 client.run(TOKEN)
