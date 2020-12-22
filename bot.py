@@ -101,6 +101,8 @@ async def on_message(message):
 		await message.comtent.send(shane)
 
 	elif message.content == prefix + "swedish welfare system":
-		await message.channel.send(onion)
+		await message.send_file(channel, r"/e/random videos",filename="monke_watermelon.mp4",content="sws")
+
+#gamers
 
 client.run(TOKEN)
